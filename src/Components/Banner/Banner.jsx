@@ -8,10 +8,8 @@ const Banner = () => {
             <img className="w-44" src={banner} alt="" />
             <h1 className="md:text-3xl text-lg text-center text-white font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
             <p className="text-gray-400">Beyond Boundaries Beyond Limits</p>
-            <div className="border border-[#E7FE29] rounded-xl">
-            <button className="btn bg-[#E7FE29] m-2 ">Claim Free Credit</button>
+            <button className="btn bg-[#E7FE29] m-2 banner">Claim Free Credit</button>
 
-            </div>
         </div>
     );
 };
