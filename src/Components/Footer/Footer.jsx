@@ -1,11 +1,14 @@
 import './Footer.css'
 import footer from "../../assets/logo-footer.png";
+import image from "../../assets/bg-shadow.png";
 const Footer = () => {
     return (
 
         <footer className=" bg-black pt-36  md:pt-40 pb-6 relative md:mt-60 mt-40">
-            <div style={
-                { backgroundImage: 'url(/src/assets/bg-shadow.png)' }} className='absolute z-1 md:top-[-25%] top-[-10%] md:left-[7.5%] left-[4%] bg-white mx-auto pl-4 pr-4 pt-8 pb-8  md:pl-96 md:pr-96 text-center bg-cover bg-no-repeat rounded-lg md:pt-20 md:pb-20 cart'>
+            <div style={{ 
+            backgroundImage: `url(${image})`
+            
+        }}className='absolute z-1 md:top-[-25%] top-[-10%] md:left-[7.5%] left-[4%] bg-base-100 mx-auto pl-4 pr-4 pt-8 pb-8  md:pl-96 md:pr-96 text-center bg-cover bg-no-repeat bg-center rounded-lg md:pt-20 md:pb-20 cart'>
                 <form className='border-b-gray-700 '>
                     <h6 className="md:text-xl font-bold">Subscribe to our Newsletter</h6>
                     <fieldset className="form-control ">
