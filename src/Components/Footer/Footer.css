@@ -1,4 +1,22 @@
 .btn-shadow{
-    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,124,1) 67%);
-  
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,124,1) 100%); 
 }
+
+/* .absolute {
+    position: absolute;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.absolute::after {
+    position: absolute;
+    content: '';
+    width: 1110px;
+    /* background-color: #3f2a2a57; */
+    /* border: 3px solid #dbd3d3;
+    top: -14px;
+    left: -15px;
+    height: 323px;
+    border-radius: 15px;
+    z-index: -99;
+} */ 

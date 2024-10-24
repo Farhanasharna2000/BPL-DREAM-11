@@ -1,0 +1,122 @@
+[
+    {
+      "playerId": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://i.ibb.co.com/QnyTJXV/Virat-Kohli.jpg",
+      "role": "Batsman",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm medium",
+      "biddingPrice": 15000
+    },
+    {
+      "playerId": 2,
+      "name": "Rohit Sharma",
+      "country": "India",
+      "image": "https://i.ibb.co.com/rQCLLp4/Rohit-Sharma.jpg",
+      "role": "Batsman",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm off-break",
+      "biddingPrice": 12000
+    },
+    {
+      "playerId": 3,
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "image": "https://i.ibb.co.com/Xbvbdjj/babar.jpg",
+      "role": "Batsman",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm off-break",
+      "biddingPrice": 10000
+    },
+    {
+      "playerId": 4,
+      "name": "Shaheen Afridi",
+      "country": "Pakistan",
+      "image": "https://i.ibb.co.com/pr8nq3h/Shaheen-Afridi.jpg",
+      "role": "Bowler",
+      "battingStyle": "Left-handed",
+      "bowlingStyle": "Left-arm fast-medium",
+      "biddingPrice": 12000
+    },
+    {
+      "playerId": 5,
+      "name": "Jos Buttler",
+      "country": "England",
+      "image": "https://i.ibb.co.com/9yZX6c3/Jos-Buttler.jpg",
+      "role": "Wicket-keeper Batsman",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm off-break",
+      "biddingPrice": 80000
+    },
+    {
+      "playerId": 6,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/6RXq05c/Kane-Williamson.jpg",
+      "role": "Batsman",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm off-break",
+      "biddingPrice": 90000
+    },
+    {
+      "playerId": 7,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "image": "https://i.ibb.co.com/gMys2Qy/Rashid-Khan.png",
+      "role": "Bowler",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Leg-break googly",
+      "biddingPrice": 10000
+    },
+    {
+      "playerId": 8,
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/1v6knkZ/David-Warner.jpg",
+      "role": "Batsman",
+      "battingStyle": "Left-handed",
+      "bowlingStyle": "Slow left-arm orthodox",
+      "biddingPrice": 90000
+    },
+    {
+      "playerId": 9,
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/y0svN8G/Pat-Cummins.png",
+      "role": "Bowler",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm fast-medium",
+      "biddingPrice": 12000
+    },
+    {
+      "playerId": 10,
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/Ln7nJgG/Trent-Boult.png",
+      "role": "Bowler",
+      "battingStyle": "Left-handed",
+      "bowlingStyle": "Left-arm fast-medium",
+      "biddingPrice": 11000
+    },
+    {
+      "playerId": 11,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "image": "https://i.ibb.co.com/SBZsW15/Jasprit-Bumrah.jpg",
+      "role": "Bowler",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm fast-medium",
+      "biddingPrice": 15000
+    },
+    {
+      "playerId": 12,
+      "name": "Kagiso Rabada",
+      "country": "South Africa",
+      "image": "https://i.ibb.co.com/1KxDPF5/Kagiso-Rabada.jpg",
+      "role": "Bowler",
+      "battingStyle": "Right-handed",
+      "bowlingStyle": "Right-arm fast",
+      "biddingPrice": 13000
+    }
+  ]
