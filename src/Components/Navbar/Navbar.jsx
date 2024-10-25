@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { TbCoinFilled } from "react-icons/tb";
 import logo from "../../assets/logo.png";
 const Navbar = ({freeCredit}) => {
@@ -48,4 +49,8 @@ const Navbar = ({freeCredit}) => {
     );
 };
 
+Navbar.propTypes = {
+    
+  freeCredit: PropTypes.number.isRequired,
+}
 export default Navbar;

@@ -1,6 +1,9 @@
+import PropTypes from 'prop-types';
 import { FaUser } from "react-icons/fa";
 import { IoFlagSharp } from "react-icons/io5";
-const Player = ({player}) => {
+const Player = ({player,handleSelectedPlayer}) => {
+    // console.log(handleSelectedPlayer);
+    
     const{playerId,name,country,image,role,battingStyle,bowlingStyle,biddingPrice}=player
     return (
         <div >
@@ -25,7 +28,7 @@ const Player = ({player}) => {
     </div>
     <div className="flex justify-between items-center">
             <p className="card-title  text-lg  font-medium ">Price: ${biddingPrice}</p>
-        <button className="btn  bg-transparent shadow-sm">Choose Player</button>
+        <button onClick={()=>handleSelectedPlayer(player)} className="btn  bg-transparent shadow-sm">Choose Player</button>
     </div>
   </div>
 </div>   
@@ -33,4 +36,8 @@ const Player = ({player}) => {
     );
 };
 
+Player.propTypes = {
+    
+    player: PropTypes.object.isRequired,
+}
 export default Player;
