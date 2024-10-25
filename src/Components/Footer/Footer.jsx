@@ -9,7 +9,7 @@ const Footer = () => {
             backgroundImage: `url(${image})`
             
         }}className='absolute z-1 md:top-[-25%] top-[-10%] md:left-[7.5%] left-[4%] bg-base-100 mx-auto pl-4 pr-4 pt-8 pb-8  md:pl-96 md:pr-96 text-center bg-cover bg-no-repeat bg-center rounded-lg md:pt-20 md:pb-20 cart '>
-                <form className='border-b-gray-700 '>
+                <div className='border-b-gray-700 '>
                     <h6 className="md:text-xl font-bold">Subscribe to our Newsletter</h6>
                     <fieldset className="form-control ">
                         <label className="label">
@@ -23,7 +23,7 @@ const Footer = () => {
                             <button className="btn  btn-shadow ">Subscribe</button>
                         </div>
                     </fieldset>
-                </form>
+                </div>
             </div>
             <div className='border-b-2 border-gray-900'>
                 <img className=' mx-auto mb-10' src={footer} alt="" />
@@ -42,7 +42,7 @@ const Footer = () => {
                             <li><a className="link link-hover">Contact</a></li>
                         </ul>
                     </nav>
-                    <form className='border-b-gray-700 '>
+                    <div className='border-b-gray-700 '>
                         <h6 className="text-white">Subscribe</h6>
                         <fieldset className="form-control   md:w-80">
                             <label className="label">
@@ -56,7 +56,7 @@ const Footer = () => {
                                 <button className="btn  join-item btn-shadow">Subscribe</button>
                             </div>
                         </fieldset>
-                    </form>
+                    </div>
                 </div>
             </div>
             <p className='text-center mt-6'>@2024 Your Company All Rights Reserved.</p>

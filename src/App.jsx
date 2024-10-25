@@ -76,8 +76,17 @@ function App() {
   const handleDelete = (playerId) => {
     const remaining = selectedPlayers.filter(
       (selectedPlayer) => selectedPlayer.playerId !== playerId
+      
     );
+    const SelectPl = selectedPlayers.find(
+      (selectedPlayer) => selectedPlayer.playerId == playerId
+      
+    );
+
     setSelectedPlayers(remaining);
+  
+    setFreeCredit(freeCredit + SelectPl.biddingPrice);
+
     toast.warn("Player removed from selection.");
   };
 

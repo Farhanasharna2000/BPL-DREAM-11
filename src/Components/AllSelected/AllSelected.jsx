@@ -38,6 +38,7 @@ const AllSelected = ({ selectedPlayers,handleDelete, handleIsActive }) => {
     
     handleDelete: PropTypes.func.isRequired,
     selectedPlayers: PropTypes.object.isRequired,
+    handleIsActive: PropTypes.func.isRequired,
 
 }
   export default AllSelected;

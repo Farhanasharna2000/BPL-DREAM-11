@@ -4,7 +4,7 @@ import { IoFlagSharp } from "react-icons/io5";
 const Player = ({player,handleSelectedPlayer}) => {
     // console.log(handleSelectedPlayer);
     
-    const{playerId,name,country,image,role,battingStyle,bowlingStyle,biddingPrice}=player
+    const{name,country,image,role,battingStyle,bowlingStyle,biddingPrice}=player
     return (
         <div >
            <div className="card bg-base-100 w-full  border">
@@ -38,5 +38,7 @@ const Player = ({player,handleSelectedPlayer}) => {
 Player.propTypes = {
     
     player: PropTypes.object.isRequired,
+    handleSelectedPlayer: PropTypes.func.isRequired,
+
 }
 export default Player;
