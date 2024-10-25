@@ -2,7 +2,7 @@ import './AllSelected.css'
 import { RiDeleteBin6Line } from "react-icons/ri";
 import PropTypes from 'prop-types';
 
-const AllSelected = ({ selectedPlayers,handleDelete }) => {
+const AllSelected = ({ selectedPlayers,handleDelete, handleIsActive }) => {
     return (
       <div className="container mx-auto">
         <h1 className="text-3xl font-semibold mb-8">
@@ -30,7 +30,7 @@ const AllSelected = ({ selectedPlayers,handleDelete }) => {
             </div>
           ))}
         </div>
-        <button className="btn bg-[#E7FE29] m-2 more">Add More Player</button>
+        <button onClick={()=>handleIsActive("available")} className="btn bg-[#E7FE29] m-2 more">Add More Player</button>
       </div>
     );
   };

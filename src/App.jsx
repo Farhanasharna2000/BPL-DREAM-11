@@ -56,13 +56,20 @@ function App() {
       return;
     }
 
-    if (freeCredit >= player.biddingPrice) {
+    if (isAlreadySelected) {
+      toast.info("Player already selected!");
+      return;
+    }
+
+    if (freeCredit >= player.biddingPrice && selectedPlayers.length < 6) {
       const newPlayers = [...selectedPlayers, player];
       setSelectedPlayers(newPlayers);
       setFreeCredit(freeCredit - player.biddingPrice);
       toast.success(`${player.name} added to selected players!`);
-    } else {
+    } else if (freeCredit < player.biddingPrice) {
       toast.error("You don't have enough coins to select this player.");
+    } else {
+      toast.error("You can only select a maximum of 6 players.");
     }
   };
 
@@ -93,7 +100,7 @@ function App() {
             availablePlayers={availablePlayers}
           />
         ) : (
-          <AllSelected selectedPlayers={selectedPlayers} handleDelete={handleDelete} />
+          <AllSelected selectedPlayers={selectedPlayers} handleDelete={handleDelete}  handleIsActive={handleIsActive} />
         )}
       </div>
       <Footer />
