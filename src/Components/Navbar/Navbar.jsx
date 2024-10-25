@@ -1,6 +1,6 @@
 import { TbCoinFilled } from "react-icons/tb";
 import logo from "../../assets/logo.png";
-const Navbar = () => {
+const Navbar = ({freeCredit}) => {
     return (
         <div className="container mx-auto flex justify-between items-center">
           <div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <li><a>Fixture</a></li>
                 <li><a>Teams </a></li>
                 <li><a>Schedules </a></li>
-                <li ><a className="border" href="">0 Coin<TbCoinFilled className="text-yellow-500 text-2xl" /></a></li>
+                <li ><a className="border font-bold" href="">{freeCredit} Coin<TbCoinFilled className="text-yellow-500 text-2xl" /></a></li>
               </ul>
             </div>
           </div>
