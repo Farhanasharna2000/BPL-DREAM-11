@@ -3,7 +3,7 @@ import { TbCoinFilled } from "react-icons/tb";
 import logo from "../../assets/logo.png";
 const Navbar = ({freeCredit}) => {
     return (
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex justify-between items-center sticky top-0 z-10 backdrop-blur-md">
           <div>
             <img className="w-14 h-14" src={logo} alt="" />
           </div>

@@ -7,7 +7,6 @@ const Player = ({player,handleSelectedPlayer}) => {
     const{playerId,name,country,image,role,battingStyle,bowlingStyle,biddingPrice}=player
     return (
         <div >
-          
            <div className="card bg-base-100 w-full  border">
   <figure className="px-10 pt-10">
     <img 
@@ -28,7 +27,7 @@ const Player = ({player,handleSelectedPlayer}) => {
     </div>
     <div className="flex justify-between items-center">
             <p className="card-title  text-lg  font-medium ">Price: ${biddingPrice}</p>
-        <button onClick={()=>handleSelectedPlayer(player)} className="btn  bg-transparent shadow-sm">Choose Player</button>
+        <button onClick={()=>handleSelectedPlayer(player)} className="btn  bg-transparent shadow-sm hover:bg-[#E7FE29]">Choose Player</button>
     </div>
   </div>
 </div>   

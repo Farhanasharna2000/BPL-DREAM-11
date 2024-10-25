@@ -8,7 +8,7 @@ const AllSelected = ({ selectedPlayers,handleDelete }) => {
         <h1 className="text-3xl font-semibold mb-8">
           Selected Players ( {selectedPlayers.length} / 6 )
         </h1>
-        <div className="space-y-4">
+        <div className="space-y-4 mb-6">
           {selectedPlayers.map((player, idx) => (
             <div key={idx} className="flex items-center p-4 border rounded-lg  space-x-4">
               <div className="w-16 h-16">
@@ -20,7 +20,11 @@ const AllSelected = ({ selectedPlayers,handleDelete }) => {
               </div>
               <div className="flex-1">
                 <h2 className="text-xl font-bold">{player.name}</h2>
-                <p className="text-gray-500 text-sm">{player.battingStyle}</p>
+                <p className="text-gray-500 text-sm">BattingStyle : {player.battingStyle}</p>
+                <p className="text-gray-500 text-sm">Role : {player.role}</p>
+                <p className="text-gray-500 text-sm">BiddingPrice : $ {player.biddingPrice}</p>
+
+
               </div>
               <button onClick={()=>handleDelete(player.playerId)} className="text-red-400 "><RiDeleteBin6Line /></button>
             </div>

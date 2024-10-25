@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 const Toggle = ({handleIsActive,isActive,selectedPlayers}) => {
     return (
         
-            <div className="flex">
-            <button onClick={()=>handleIsActive("available")} className={`${isActive.available?"btn  bg-[#E7FE29] text-black":"btn text-gray-600"}`}>Available</button>
-            <button onClick={()=>handleIsActive("select")}className={`${isActive.available?"btn text-gray-600":"btn  bg-[#E7FE29] text-black"}`}>Selected ({selectedPlayers.length})</button>
+            <div className="flex ">
+            <button onClick={()=>handleIsActive("available")} className={`${isActive.available?"btn  bg-[#E7FE29] text-black":"btn text-gray-600 bg-white"}`}>Available</button>
+            <button onClick={()=>handleIsActive("select")}className={`${isActive.available?"btn text-gray-600 bg-white":"btn  bg-[#E7FE29] text-black"}`}>Selected ({selectedPlayers.length})</button>
             
         </div>
     );
