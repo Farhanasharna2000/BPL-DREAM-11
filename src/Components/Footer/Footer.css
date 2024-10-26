@@ -1,8 +1,10 @@
 .btn-shadow{
     background: linear-gradient(90deg, rgba(210,90,141,0.9220063025210083) 0%, rgba(252,176,69,1) 43%);
 }
-.cart{
+.cart {
     outline: 1px solid white;
     outline-offset: 15px;
-   
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
 }
