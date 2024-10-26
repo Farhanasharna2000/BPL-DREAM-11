@@ -28,7 +28,7 @@ My project is interactive React-based cricket team management app. Users can vie
 
 **3. Toggle Between Views:** A toggle feature allows users to switch between viewing available players and their selected team, with an "Add More Players" option that redirects to available players when needed, ensuring seamless navigation.
 
-#  **Live link to the deployed project:**
+#  **Live link to the deployed project:** billowy-mine.surge.sh
 
-billowy-mine.surge.sh
+
 
