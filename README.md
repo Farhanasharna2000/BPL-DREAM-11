@@ -1,6 +1,6 @@
 ###  **Project name**
 
-    # <img width="30px" src="assets/logo.png"/> BPL-DREAM 11
+# <img width="30px" src="assets/logo.png"/> BPL-DREAM 11
 
 ### **Short description of the project:**
  
@@ -20,10 +20,12 @@ My project is interactive React-based cricket team management app. Users can vie
 
 - Surge
 
-### **3 key features of this project:**
+### **Three key features of this project:**
 
 **1.Dynamic Player Selection:** Users can view available players and select them based on their credit balance. Each player's profile displays details like name, country, role, and bidding price, adding realism to the selection process.
+
 **2.Interactive Credit System:** The app includes a credit system, where users earn additional credits and spend them to "bid" for players. Notifications inform users if they lack sufficient credits or if a player is already selected, enhancing usability.
+
 **3.Toggle Between Views:** A toggle feature allows users to switch between viewing available players and their selected team, with an "Add More Players" option that redirects to available players when needed, ensuring seamless navigation.
 
 ###  **Live link to the deployed project:**
